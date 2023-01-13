@@ -1,0 +1,225 @@
+@import "../../App.scss";
+
+.navbar {
+  width: 96%;
+  font-size: 14px;
+  position: fixed;
+  top: 13px;
+  left: 2%;
+  z-index: 999;
+
+  .nav-container {
+    width: 100%;
+    background: var(--secondary-color);
+    padding: 0px 50px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // box-shadow: 0px 0px 2px 2px #eeeeee;
+    box-shadow: 0 -1px 12px rgba(14, 62, 58, 0.15);
+
+    .left {
+      .logo {
+        font-size: 20px;
+        color: var(--primary-color);
+      }
+    }
+
+    .middle {
+      height: 100%;
+
+      .nav-links {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        column-gap: 30px;
+        transition: 0.4s;
+
+        .link {
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          &:hover {
+            span {
+              color: var(--primary-color);
+            }
+          }
+
+          .icon {
+            font-size: 25px;
+            color: var(--text-color2);
+            display: none;
+          }
+
+          span {
+            height: 99%;
+            display: flex;
+            align-items: center;
+            font-size: 17px;
+            font-weight: 500;
+            color: var(--text-color2);
+            padding: 10px 15px;
+            cursor: pointer;
+          }
+
+          .navlink-border {
+            justify-self: end;
+            width: 100%;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            border-bottom: 4px solid transparent;
+            transition: 0.35s ease-in;
+          }
+
+          &.active {
+            .icon {
+              color: var(--primary-color);
+            }
+
+            span {
+              color: var(--primary-color);
+            }
+
+            .navlink-border {
+              border-color: var(--primary-color);
+            }
+          }
+        }
+      }
+
+      @include tablet {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        background: var(--secondary-color);
+        display: flex;
+        justify-content: center;
+        border-top-left-radius: 22px;
+        border-top-right-radius: 22px;
+        box-shadow: 0 -1px 12px rgba(14, 62, 58, 0.15);
+
+        .nav-links {
+          width: 60%;
+          column-gap: 0;
+          justify-content: space-between;
+          padding: 10px 0 8px;
+
+          .link {
+            .icon {
+              display: block;
+            }
+            
+            span {
+              font-size: 11px;
+              padding: 0 10px;
+            }
+            
+            .navlink-border {
+              display: none;
+            }
+          }
+        }
+      }
+
+      @include mobile {
+        height: 54px;
+
+        .nav-links {
+          width: 90%;
+        }
+      }
+    }
+
+    .right {
+      .profile {
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 48px;
+          height: 48px;
+          border-radius: 50%;
+          object-fit: cover;
+          cursor: pointer;
+        }
+
+        .userDetails {
+          display: flex;
+          flex-direction: column;
+          margin-left: 20px;
+          cursor: pointer;
+
+          span:first-child {
+            font-size: 18px;
+            font-weight: 500;
+            color: var(--text-color2);
+          }
+
+          span:last-child {
+            font-size: 14px;
+            height: 19px;
+            color: var(--text-color1);
+          }
+        }
+
+        .icon {
+          margin-top: -21px;
+          font-size: 32px;
+          cursor: pointer;
+        }
+
+        @include tablet {
+          img {
+            height: 40px;
+            width: 40px;
+          }
+
+          .userDetails {
+            display: none;
+          }
+
+          .icon {
+            display: none;
+          }
+        }
+      }
+    }
+
+    @include tablet {
+      height: 60px;
+      padding: 0px 45px;
+    }
+    
+    @include mobile {
+      height: 54px;
+      padding: 0px 20px;
+    }
+  }
+
+  &::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 83px;
+    background: var(--secondary-color);
+    z-index: -99;
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+  @include tablet {
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 -1px 12px rgba(14, 62, 58, 0.15);
+  }
+}

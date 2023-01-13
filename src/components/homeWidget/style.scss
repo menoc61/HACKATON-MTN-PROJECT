@@ -1,0 +1,85 @@
+@import "../../App.scss";
+
+.widget-container {
+  width: 48%;
+  height: 254px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 24px;
+
+  .topSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+      font-size: 24px;
+      color: var(--text-color2);
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: var(--primary-color);
+      transition: all 0.3s ease-out;
+    }
+
+    a:hover {
+      color: var(--text-color1);
+    }
+  }
+
+  &.tasks,
+  &.schedules,
+  &.doubts {
+    .topSection {
+      padding-bottom: 18px;
+    }
+  }
+
+  @include tablet {
+    width: 100%;
+
+    &.schedules,
+    &.doubts {
+      .topSection {
+        padding-bottom: 8px;
+      }
+    }
+  }
+
+  @include mobile {
+    &.materials {
+      height: 215px;
+    }
+
+    &.tasks {
+      height: 212px;
+    }
+
+    .topSection {
+      h2 {
+        font-size: 19px;
+      }
+      
+      .link {
+        font-size: 15px;
+      }
+    }
+
+    &.tasks {
+      .topSection {
+        padding-bottom: 13px;
+      }
+    }
+    
+    &.schedules,
+    &.doubts {
+      .topSection {
+        padding-bottom: 8px;
+      }
+    }
+  }
+}
