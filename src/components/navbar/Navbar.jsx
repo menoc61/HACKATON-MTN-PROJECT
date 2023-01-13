@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className="nav-container">
         <div className="left">
           <Link to="/" className="link">
-            <h3 className="logo">WebDesk</h3>
+            <h3 className="logo">NextGel</h3>
           </Link>
         </div>
 

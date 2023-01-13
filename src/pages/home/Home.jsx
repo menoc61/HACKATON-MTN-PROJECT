@@ -18,7 +18,7 @@ const Home = () => {
       <Sidebar />
 
       <div className="container">
-        <HeroSection large title="Welcome to WebDesk" />
+        <HeroSection large title="Welcome to NextGel" />
 
         <div className="widgets-row">
           <HomeWidget
