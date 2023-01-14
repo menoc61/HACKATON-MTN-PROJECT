@@ -1,54 +1,126 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link, useHistory } from "react-router-dom";
+import { classesArray } from "../../dummydata";
+import formatDatetime from "../../utils/formatDatetime";
 import "./style.scss";
 
-const ItemSm = ({
-  type,
-  itemTitle,
-  subject,
-  timeOfposting,
-  nameOfPoster,
-  status,
-}) => {
+const ItemSm = ({ type, index, data, noLink }) => {
+  let {
+    _id: itemId,
+    title,
+    subject,
+    poster,
+    teachers,
+    createdAt,
+    day,
+    time,
+  } = data;
+
+  const [status, setStatus] = useState("");
+
+  const history = useHistory();
+
+  useEffect(() => {
+    if (type === "schedule") setStatus(classesArray[index].status);
+  }, []);
+
+  createdAt = formatDatetime(createdAt);
+  day = "today";
+
   return (
-    <Link
-      to={`/${
-        type === "schedule" ? (status === "ongoing" ? "class/join" : "#") : type
-      }`}
-      className="link"
-    >
-      <div
-        className={"itemSm " + type + (type === "schedule" ? ` ${status}` : "")}
-      >
-        <div className="column1">
-          {type === "schedule" ? (
-            <div className={"status-indicator " + status}></div>
-          ) : (
-            <p>{timeOfposting}</p>
-          )}
-          <h5>{type === "schedule" ? subject : nameOfPoster}</h5>
-        </div>
-        <div className="column2">
-          <h5>{itemTitle}</h5>
-          <p>{type === "schedule" ? nameOfPoster : subject}</p>
-        </div>
-        {type === "schedule" && (
-          <div className="column3">
-            <h5>{timeOfposting}</h5>
-            <p>today</p>
+    <>
+      {noLink ? (
+        <div
+          className={
+            "itemSm " + type + (type === "schedule" ? ` ${status}` : "")
+          }
+          onClick={
+            status === "ongoing" ? () => history.push("/class/join/91c40469-3a0c-4672-8695-9274537e1bbd") : () => {}
+          }
+        >
+          <div className="column1">
+            {type === "schedule" ? (
+              <div className={"status-indicator " + status}></div>
+            ) : (
+              <p>{createdAt}</p>
+            )}
+            <h5>{type === "schedule" ? subject?.name : poster?.fullname}</h5>
           </div>
-        )}
-        <div className="column4">
-          {status === "ongoing" || type === "doubt" ? (
-            <Link to={`/${type === "schedule" ? "class/join" : type}`} className="link">
-              <button>{type === "schedule" ? "Join" : "View"}</button>
-            </Link>
-          ) : (
-            <p className={status}>{status?.replace("-", " ")}</p>
+          <div className="column2">
+            <h5>{title}</h5>
+            <p>{type === "schedule" ? teachers[0]?.fullname : subject?.name}</p>
+          </div>
+          {type === "schedule" && (
+            <div className="column3">
+              <h5>{time}</h5>
+              <p>{day}</p>
+            </div>
           )}
+          <div className="column4">
+            {status === "ongoing" ? (
+              <Link
+                to="class/join/91c40469-3a0c-4672-8695-9274537e1bbd"
+                className="link"
+              >
+                <button>Join</button>
+              </Link>
+            ) : (
+              <p className={status}>{status?.replace("-", " ")}</p>
+            )}
+          </div>
         </div>
-      </div>
-    </Link>
+      ) : (
+        <Link
+          to={{
+            pathname: `/${type}/${itemId}`,
+            itemData: data,
+          }}
+          className="link"
+        >
+          <div
+            className={
+              "itemSm " + type + (type === "schedule" ? ` ${status}` : "")
+            }
+          >
+            <div className="column1">
+              {type === "schedule" ? (
+                <div className={"status-indicator " + status}></div>
+              ) : (
+                <p>{createdAt}</p>
+              )}
+              <h5>{type === "schedule" ? subject?.name : poster?.fullname}</h5>
+            </div>
+            <div className="column2">
+              <h5>{title}</h5>
+              <p>
+                {type === "schedule" ? teachers[0]?.fullname : subject?.name}
+              </p>
+            </div>
+            {type === "schedule" && (
+              <div className="column3">
+                <h5>{time}</h5>
+                <p>{day}</p>
+              </div>
+            )}
+            <div className="column4">
+              {status === "ongoing" || type === "doubt" ? (
+                <Link
+                  to={{
+                    pathname: `/${type}/${itemId}`,
+                    itemData: data,
+                  }}
+                  className="link"
+                >
+                  <button>{type === "schedule" ? "Join" : "View"}</button>
+                </Link>
+              ) : (
+                <p className={status}>{status?.replace("-", " ")}</p>
+              )}
+            </div>
+          </div>
+        </Link>
+      )}
+    </>
   );
 };
 

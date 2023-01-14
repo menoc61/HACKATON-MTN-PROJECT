@@ -8,9 +8,9 @@ import { Link } from "react-router-dom";
 const HomeWidget = ({
   title,
   type,
-  data,
   forLargeItems,
   forSmallItems,
+  itemList,
   noSeeAll,
 }) => {
   return (
@@ -31,41 +31,29 @@ const HomeWidget = ({
 
       {forLargeItems &&
         type === "all-classes" &&
-        data.map((item) => (
-          <ItemMd
-            type="class"
-            subject={item.subject}
-            teacher={item.teacher}
-            classTime={item.classTime}
-            bgColor={item.bgColor}
-            textColor={item.textColor}
-          />
+        itemList?.map((item, index) => (
+          <ItemMd type="class" key={item._id} index={index} data={item} />
         ))}
 
       {forLargeItems &&
         type !== "all-classes" &&
-        data.map((item, index) => (
+        itemList?.map((item, index) => (
           <ItemMd
             index={index}
             type={type.slice(0, -1)}
-            itemTitle={item.itemTitle}
-            subject={item.subject}
-            timeOfposting={item.timeOfposting}
-            profilePicOfPoster={item.profilePicOfPoster}
-            status={item.status}
-            taskFile={item.taskFile}
+            key={item._id}
+            data={item}
           />
         ))}
 
       {forSmallItems &&
-        data.map((item) => (
+        itemList?.map((item, index) => (
           <ItemSm
+            index={index}
             type={type.slice(0, -1)}
-            itemTitle={item.itemTitle}
-            subject={item.subject}
-            timeOfposting={item.timeOfposting}
-            nameOfPoster={item.nameOfPoster}
-            status={item.status}
+            key={item._id}
+            data={item}
+            noLink={type === "schedules"}
           />
         ))}
     </div>

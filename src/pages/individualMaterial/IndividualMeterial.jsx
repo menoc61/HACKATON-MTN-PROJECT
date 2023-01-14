@@ -1,47 +1,66 @@
-import React from "react";
+import React, { useContext, useEffect, useState } from "react";
 import "./style.scss";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
 import ClassComment from "../../components/classComment/ClassComment";
-import DetailedMaterial from "../../components/detailedMeterial/DetailedMaterial";
 import QuestionAnswerRoundedIcon from "@material-ui/icons/QuestionAnswerRounded";
+import { useLocation, useParams } from "react-router-dom";
+import DetailedItem from "../../components/detailedItem/DetailedItem";
+import { getItemdata } from "../../utils/fetchData";
+import { AuthContext } from "../../context/authContext/AuthContext";
+import formatDatetime from "../../utils/formatDatetime";
 
 function IndividualMeterial() {
+  const { itemData, openEdit } = useLocation();
+  const [data, setData] = useState(itemData);
+
+  const { id: itemId } = useParams();
+  const { user } = useContext(AuthContext);
+
+  useEffect(() => {
+    if (!data) {
+      getItemdata("material", itemId, user)
+        .then((response) => {
+          setData(response);
+        })
+        .catch((err) => console.log(err));
+    }
+  }, []);
+
   return (
     <div className="individual-material">
       <Navbar />
       <Sidebar />
       <div className="container">
         <div className="wrapper">
-          <DetailedMaterial
-            type="material"
-            title="Graph theory notes"
-            postedBy="Debnarayan Khatua"
-            timeOfPosting="9:30 am"
-            subject="Discrete Math"
-            filename="Graph_theory.pdf"
-          />
+          <DetailedItem type="material" data={data} openEdit={openEdit} />
 
           <div className="comment-heading">
             <QuestionAnswerRoundedIcon className="icon" />
             <h3>Class comments</h3>
           </div>
 
-          <ClassComment type="writeComment" />
           <ClassComment
-            type="writtenComment"
-            postedBy="Biswanath Bera"
-            timeOfPosting="10:20 am"
-            profilePic="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2-51vyAHU4Urt5e5n5dD9PTEtHnQ-wTpVg&usqp=CAU"
-            message="Sir please provide notes for bipartite graph"
+            inputMode
+            parentType="material"
+            itemId={data?._id}
+            setDataChanged={setData}
           />
-          <ClassComment
-            type="writtenComment"
-            postedBy="Abhik Das"
-            timeOfPosting="9:20 am"
-            profilePic="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk9t7VOESps3y6t6qIMAGPai0sbH9LUWt9dQ&usqp=CAU"
-            message="Sir can you please give some notes on complete graph, cyclic graph, acyclic graph, connected graph, disconnected graph, weighted graph, directed graph, undirected graph, trivial graph, bipartite graph, star graph, multi graph"
-          />
+
+          {data?.comments?.map((comment) => (
+            <ClassComment
+              parentType="material"
+              key={comment?._id}
+              commentId={comment?._id}
+              posterId={comment?.poster?._id}
+              postedBy={comment?.poster?.fullname}
+              timeOfPosting={formatDatetime(comment?.createdAt)}
+              profilePic={comment?.poster?.profilePic}
+              message={comment?.comment}
+              itemId={data?._id}
+              setDataChanged={setData}
+            />
+          ))}
         </div>
       </div>
     </div>
