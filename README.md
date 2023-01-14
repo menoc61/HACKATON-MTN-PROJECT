@@ -88,3 +88,5 @@ this issue to a large extend by enabling a single window for teachers and facult
 - [TIOMELA DANIEL](danielsitepro@gmail.com)
 - [YOSSA STEVE](ngueliatouyossasteve@gmail.com)
 - [YEBA BRAYAN](yebagabrayan@gmail.com)
+- [MESHA VEGAS](Meshvegas@gmail.com)
+- [AMAFA DIDEROT](destiny79360863@gmail.com)

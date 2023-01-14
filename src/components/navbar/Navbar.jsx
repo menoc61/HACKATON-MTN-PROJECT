@@ -5,6 +5,7 @@ import HomeOutlinedIcon from "@material-ui/icons/HomeOutlined";
 import LibraryBooksOutlinedIcon from "@material-ui/icons/LibraryBooksOutlined";
 import AssignmentOutlinedIcon from "@material-ui/icons/AssignmentOutlined";
 import LiveHelpOutlinedIcon from "@material-ui/icons/LiveHelpOutlined";
+import logo from "../../assets/logo.jpeg";
 import "./style.scss";
 
 const Navbar = () => {
@@ -24,6 +25,7 @@ const Navbar = () => {
       <div className="nav-container">
         <div className="left">
           <Link to="/" className="link">
+            <img src={logo} alt="logo" className="logo_img"/>
             <h3 className="logo">NextGel</h3>
           </Link>
         </div>
