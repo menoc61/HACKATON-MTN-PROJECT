@@ -4,14 +4,14 @@ export const notesArray = [
     subject: "Data Structure",
     timeOfposting: "10:30 am",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1544168190-79c17527004f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2-51vyAHU4Urt5e5n5dD9PTEtHnQ-wTpVg&usqp=CAU",
   },
   {
     itemTitle: "String in java",
     subject: "Java Programming",
     timeOfposting: "2:30 pm",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1573496774379-b930dba17d8b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZlbWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk9t7VOESps3y6t6qIMAGPai0sbH9LUWt9dQ&usqp=CAU",
   },
 ];
 
@@ -22,7 +22,7 @@ export const tasksArray = [
     timeOfposting: "10:30 am",
     status: "submitted",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1544168190-79c17527004f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2-51vyAHU4Urt5e5n5dD9PTEtHnQ-wTpVg&usqp=CAU",
     taskFile: "assignment ca1",
   },
   {
@@ -31,7 +31,7 @@ export const tasksArray = [
     timeOfposting: "yesterday",
     status: "pending",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1573496774379-b930dba17d8b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZlbWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk9t7VOESps3y6t6qIMAGPai0sbH9LUWt9dQ&usqp=CAU",
     taskFile: "assignment2",
   },
 ];
@@ -119,7 +119,7 @@ export const materialArray = [
     subject: "Data Structure",
     timeOfposting: "10:30 am",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1544168190-79c17527004f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2-51vyAHU4Urt5e5n5dD9PTEtHnQ-wTpVg&usqp=CAU",
   },
   {
     itemTitle: "String in java",
@@ -127,7 +127,7 @@ export const materialArray = [
     subject: "Java Programming",
     timeOfposting: "2:30 pm",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1608681299041-cc19878f79f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThjJflBWUNTLijUb_GMzU9o7aSyRbBLkip8A&usqp=CAU",
   },
   {
     itemTitle: "Graph theory notes",
@@ -135,7 +135,7 @@ export const materialArray = [
     subject: "Discrete Math",
     timeOfposting: "Wednesday",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1589992896844-9b720813d1cb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1031&q=80",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1B8UMbGaktaFxNg9Vsqahayvtsi7Zac5r3I3sxr06wvDet3wBtJSTQsJrikbtBL7lI8s&usqp=CAU",
   },
   {
     itemTitle: "notes taking",
@@ -159,7 +159,7 @@ export const materialArray = [
     subject: "Data Structure",
     timeOfposting: "10:30 am",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1544168190-79c17527004f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2-51vyAHU4Urt5e5n5dD9PTEtHnQ-wTpVg&usqp=CAU",
   },
   {
     itemTitle: "OOPS concept",
@@ -167,7 +167,7 @@ export const materialArray = [
     subject: "Java Programming",
     timeOfposting: "2:30 pm",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1608681299041-cc19878f79f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThjJflBWUNTLijUb_GMzU9o7aSyRbBLkip8A&usqp=CAU",
   },
   {
     itemTitle: "Class 21 study Material ",
@@ -175,7 +175,7 @@ export const materialArray = [
     subject: "Discrete Math",
     timeOfposting: "Wednesday",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1589992896844-9b720813d1cb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1031&q=80",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1B8UMbGaktaFxNg9Vsqahayvtsi7Zac5r3I3sxr06wvDet3wBtJSTQsJrikbtBL7lI8s&usqp=CAU",
   },
   {
     itemTitle: "Presentation Notes",
@@ -199,7 +199,7 @@ export const materialArray = [
     subject: "Data Structure",
     timeOfposting: "10:30 am",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1544168190-79c17527004f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2-51vyAHU4Urt5e5n5dD9PTEtHnQ-wTpVg&usqp=CAU",
   },
   {
     itemTitle: "Loop Notes",
@@ -207,7 +207,7 @@ export const materialArray = [
     subject: "Java Programming",
     timeOfposting: "2:30 pm",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1608681299041-cc19878f79f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThjJflBWUNTLijUb_GMzU9o7aSyRbBLkip8A&usqp=CAU",
   },
   {
     itemTitle: "Tree Notes",
@@ -215,7 +215,7 @@ export const materialArray = [
     subject: "Discrete Math",
     timeOfposting: "Wednesday",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1589992896844-9b720813d1cb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1031&q=80",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1B8UMbGaktaFxNg9Vsqahayvtsi7Zac5r3I3sxr06wvDet3wBtJSTQsJrikbtBL7lI8s&usqp=CAU",
   },
   {
     itemTitle: "Business Communication",
@@ -239,7 +239,7 @@ export const materialArray = [
     subject: "Data Structure",
     timeOfposting: "10:30 am",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1544168190-79c17527004f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2-51vyAHU4Urt5e5n5dD9PTEtHnQ-wTpVg&usqp=CAU",
   },
   {
     itemTitle: "Class 19 Study Materials",
@@ -247,7 +247,7 @@ export const materialArray = [
     subject: "Java Programming",
     timeOfposting: "2:30 pm",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1608681299041-cc19878f79f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThjJflBWUNTLijUb_GMzU9o7aSyRbBLkip8A&usqp=CAU",
   },
   {
     itemTitle: "Class 23 Study Materials",
@@ -255,7 +255,7 @@ export const materialArray = [
     subject: "Discrete Math",
     timeOfposting: "Wednesday",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1589992896844-9b720813d1cb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1031&q=80",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1B8UMbGaktaFxNg9Vsqahayvtsi7Zac5r3I3sxr06wvDet3wBtJSTQsJrikbtBL7lI8s&usqp=CAU",
   },
   {
     itemTitle: "Class 14 Study Materials",
@@ -279,7 +279,7 @@ export const materialArray = [
     subject: "Data Structure",
     timeOfposting: "10:30 am",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1544168190-79c17527004f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2-51vyAHU4Urt5e5n5dD9PTEtHnQ-wTpVg&usqp=CAU",
   },
   {
     itemTitle: "Java Clss Attributes",
@@ -287,7 +287,7 @@ export const materialArray = [
     subject: "Java Programming",
     timeOfposting: "2:30 pm",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1608681299041-cc19878f79f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThjJflBWUNTLijUb_GMzU9o7aSyRbBLkip8A&usqp=CAU",
   },
   {
     itemTitle: "Set and Ratio",
@@ -295,7 +295,7 @@ export const materialArray = [
     subject: "Discrete Math",
     timeOfposting: "Wednesday",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1589992896844-9b720813d1cb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1031&q=80",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1B8UMbGaktaFxNg9Vsqahayvtsi7Zac5r3I3sxr06wvDet3wBtJSTQsJrikbtBL7lI8s&usqp=CAU",
   },
   {
     itemTitle: "Accuracy Notes",
@@ -323,7 +323,7 @@ export const taskArray = [
     dueDate: "Due Monday",
     timeOfposting: "yesterday",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1573496774379-b930dba17d8b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZlbWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk9t7VOESps3y6t6qIMAGPai0sbH9LUWt9dQ&usqp=CAU",
     status: "submitted",
   },
   {
@@ -333,7 +333,7 @@ export const taskArray = [
     dueDate: "Due Tommorow",
     timeOfposting: "Sep 26",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1608681299041-cc19878f79f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThjJflBWUNTLijUb_GMzU9o7aSyRbBLkip8A&usqp=CAU",
     status: "pending",
   },
   {
@@ -343,7 +343,7 @@ export const taskArray = [
     dueDate: "Due Wednesday",
     timeOfposting: "09:55 am",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1544168190-79c17527004f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2-51vyAHU4Urt5e5n5dD9PTEtHnQ-wTpVg&usqp=CAU",
     status: "submitted",
   },
   {
@@ -373,7 +373,7 @@ export const taskArray = [
     dueDate: "Due Today",
     timeOfposting: "01:00 pm",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1573496774379-b930dba17d8b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZlbWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk9t7VOESps3y6t6qIMAGPai0sbH9LUWt9dQ&usqp=CAU",
     status: "pending",
   },
   {
@@ -383,7 +383,7 @@ export const taskArray = [
     dueDate: "Due Sunday",
     timeOfposting: "03:12 pm",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1608681299041-cc19878f79f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThjJflBWUNTLijUb_GMzU9o7aSyRbBLkip8A&usqp=CAU",
     status: "pending",
   },
   {
@@ -393,7 +393,7 @@ export const taskArray = [
     dueDate: "Due Friday",
     timeOfposting: "12:46 pm",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1544168190-79c17527004f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2-51vyAHU4Urt5e5n5dD9PTEtHnQ-wTpVg&usqp=CAU",
     status: "pending",
   },
   {
@@ -423,7 +423,7 @@ export const taskArray = [
     dueDate: "Due 10:30 am",
     timeOfposting: "09:00 am",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1573496774379-b930dba17d8b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZlbWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk9t7VOESps3y6t6qIMAGPai0sbH9LUWt9dQ&usqp=CAU",
     status: "pending",
   },
   {
@@ -433,7 +433,7 @@ export const taskArray = [
     dueDate: "Due Wednesday",
     timeOfposting: "Oct 1st",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1608681299041-cc19878f79f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThjJflBWUNTLijUb_GMzU9o7aSyRbBLkip8A&usqp=CAU",
     status: "pending",
   },
   {
@@ -443,7 +443,7 @@ export const taskArray = [
     dueDate: "Due Tuesday",
     timeOfposting: "11:23 am",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1544168190-79c17527004f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2-51vyAHU4Urt5e5n5dD9PTEtHnQ-wTpVg&usqp=CAU",
     status: "pending",
   },
   {
@@ -473,7 +473,7 @@ export const taskArray = [
     dueDate: "Due Sunday",
     timeOfposting: "09:56 am",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1573496774379-b930dba17d8b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZlbWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk9t7VOESps3y6t6qIMAGPai0sbH9LUWt9dQ&usqp=CAU",
     status: "pending",
   },
   {
@@ -483,7 +483,7 @@ export const taskArray = [
     dueDate: "Due Today",
     timeOfposting: "Sep 23",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1608681299041-cc19878f79f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThjJflBWUNTLijUb_GMzU9o7aSyRbBLkip8A&usqp=CAU",
     status: "pending",
   },
   {
@@ -493,7 +493,7 @@ export const taskArray = [
     dueDate: "Due Today",
     timeOfposting: "07:34 pm",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1544168190-79c17527004f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2-51vyAHU4Urt5e5n5dD9PTEtHnQ-wTpVg&usqp=CAU",
     status: "pending",
   },
   {
@@ -523,7 +523,7 @@ export const taskArray = [
     dueDate: "Due Monday",
     timeOfposting: "yesterday",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1573496774379-b930dba17d8b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZlbWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk9t7VOESps3y6t6qIMAGPai0sbH9LUWt9dQ&usqp=CAU",
     status: "pending",
   },
   {
@@ -533,7 +533,7 @@ export const taskArray = [
     dueDate: "Due Tommorow",
     timeOfposting: "Sep 26",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1608681299041-cc19878f79f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThjJflBWUNTLijUb_GMzU9o7aSyRbBLkip8A&usqp=CAU",
     status: "pending",
   },
   {
@@ -543,7 +543,7 @@ export const taskArray = [
     dueDate: "Due Wednesday",
     timeOfposting: "09:55 am",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1544168190-79c17527004f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2-51vyAHU4Urt5e5n5dD9PTEtHnQ-wTpVg&usqp=CAU",
     status: "pending",
   },
   {
@@ -575,7 +575,7 @@ export const allDoubtsArray = [
     subject: "Data Structure",
     timeOfposting: "11:25",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1544168190-79c17527004f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2-51vyAHU4Urt5e5n5dD9PTEtHnQ-wTpVg&usqp=CAU",
     votes: 21,
     doubtDesc:
       "Can anyone tell me how to how to implement a queue data structure using only stack. Implement a first in first out (FIFO) queue using only two stacks. The implemented queue should support all the functions of a normal queue (push, peek, pop, and empty). You must use only standard operations of a stack, which means only push to top, peek/pop from top, size, and is empty operations are valid. Depending on your language, the stack may not be supported natively. You may simulate a stack using a list or deque (double-ended queue) as long as you use only a stack's standard operations.",
@@ -586,7 +586,7 @@ export const allDoubtsArray = [
     subject: "Discrete Math",
     timeOfposting: "8:54 am",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1608681299041-cc19878f79f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThjJflBWUNTLijUb_GMzU9o7aSyRbBLkip8A&usqp=CAU",
     votes: 15,
     doubtDesc:
       "Please anyone tell what exactly is bipartite graph with proper examples.",
@@ -597,7 +597,7 @@ export const allDoubtsArray = [
     subject: "Database",
     timeOfposting: "Yesterday",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1589992896844-9b720813d1cb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1031&q=80",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1B8UMbGaktaFxNg9Vsqahayvtsi7Zac5r3I3sxr06wvDet3wBtJSTQsJrikbtBL7lI8s&usqp=CAU",
     votes: 8,
     doubtDesc:
       "What is the difference between internal view and external view in database? Please give at least 5 to 7 differnces. If you can provide examples that will be great.",
@@ -630,7 +630,7 @@ export const allDoubtsArray = [
     subject: "Database",
     timeOfposting: "Yesterday",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1544168190-79c17527004f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2-51vyAHU4Urt5e5n5dD9PTEtHnQ-wTpVg&usqp=CAU",
     votes: 8,
     doubtDesc:
       "What is the difference between internal view and external view in database? Please give at least 5 to 7 differnces. If you can provide examples that will be great.",
@@ -641,7 +641,7 @@ export const allDoubtsArray = [
     subject: "Data Structure",
     timeOfposting: "11:25",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1608681299041-cc19878f79f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThjJflBWUNTLijUb_GMzU9o7aSyRbBLkip8A&usqp=CAU",
     votes: 21,
     doubtDesc:
       "Can anyone tell me how to how to implement a queue data structure using only stack. Implement a first in first out (FIFO) queue using only two stacks. The implemented queue should support all the functions of a normal queue (push, peek, pop, and empty). You must use only standard operations of a stack, which means only push to top, peek/pop from top, size, and is empty operations are valid. Depending on your language, the stack may not be supported natively. You may simulate a stack using a list or deque (double-ended queue) as long as you use only a stack's standard operations.",
@@ -652,7 +652,7 @@ export const allDoubtsArray = [
     subject: "Discrete Math",
     timeOfposting: "8:54 am",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1589992896844-9b720813d1cb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1031&q=80",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1B8UMbGaktaFxNg9Vsqahayvtsi7Zac5r3I3sxr06wvDet3wBtJSTQsJrikbtBL7lI8s&usqp=CAU",
     votes: 15,
     doubtDesc:
       "Please anyone tell what exactly is bipartite graph with proper examples.",
@@ -685,7 +685,7 @@ export const allDoubtsArray = [
     subject: "Discrete Math",
     timeOfposting: "8:54 am",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1544168190-79c17527004f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2-51vyAHU4Urt5e5n5dD9PTEtHnQ-wTpVg&usqp=CAU",
     votes: 15,
     doubtDesc:
       "Please anyone tell what exactly is bipartite graph with proper examples.",
@@ -696,7 +696,7 @@ export const allDoubtsArray = [
     subject: "Database",
     timeOfposting: "Yesterday",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1608681299041-cc19878f79f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThjJflBWUNTLijUb_GMzU9o7aSyRbBLkip8A&usqp=CAU",
     votes: 8,
     doubtDesc:
       "What is the difference between internal view and external view in database? Please give at least 5 to 7 differnces. If you can provide examples that will be great.",
@@ -707,7 +707,7 @@ export const allDoubtsArray = [
     subject: "Data Structure",
     timeOfposting: "11:25",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1589992896844-9b720813d1cb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1031&q=80",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1B8UMbGaktaFxNg9Vsqahayvtsi7Zac5r3I3sxr06wvDet3wBtJSTQsJrikbtBL7lI8s&usqp=CAU",
     votes: 21,
     doubtDesc:
       "Can anyone tell me how to how to implement a queue data structure using only stack. Implement a first in first out (FIFO) queue using only two stacks. The implemented queue should support all the functions of a normal queue (push, peek, pop, and empty). You must use only standard operations of a stack, which means only push to top, peek/pop from top, size, and is empty operations are valid. Depending on your language, the stack may not be supported natively. You may simulate a stack using a list or deque (double-ended queue) as long as you use only a stack's standard operations.",
@@ -740,7 +740,7 @@ export const allDoubtsArray = [
     subject: "Data Structure",
     timeOfposting: "11:25",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1544168190-79c17527004f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2-51vyAHU4Urt5e5n5dD9PTEtHnQ-wTpVg&usqp=CAU",
     votes: 21,
     doubtDesc:
       "Can anyone tell me how to how to implement a queue data structure using only stack. Implement a first in first out (FIFO) queue using only two stacks. The implemented queue should support all the functions of a normal queue (push, peek, pop, and empty). You must use only standard operations of a stack, which means only push to top, peek/pop from top, size, and is empty operations are valid. Depending on your language, the stack may not be supported natively. You may simulate a stack using a list or deque (double-ended queue) as long as you use only a stack's standard operations.",
@@ -751,7 +751,7 @@ export const allDoubtsArray = [
     subject: "Discrete Math",
     timeOfposting: "8:54 am",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1608681299041-cc19878f79f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThjJflBWUNTLijUb_GMzU9o7aSyRbBLkip8A&usqp=CAU",
     votes: 15,
     doubtDesc:
       "Please anyone tell what exactly is bipartite graph with proper examples.",
@@ -762,7 +762,7 @@ export const allDoubtsArray = [
     subject: "Database",
     timeOfposting: "Yesterday",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1589992896844-9b720813d1cb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1031&q=80",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1B8UMbGaktaFxNg9Vsqahayvtsi7Zac5r3I3sxr06wvDet3wBtJSTQsJrikbtBL7lI8s&usqp=CAU",
     votes: 8,
     doubtDesc:
       "What is the difference between internal view and external view in database? Please give at least 5 to 7 differnces. If you can provide examples that will be great.",
@@ -795,7 +795,7 @@ export const allDoubtsArray = [
     subject: "Database",
     timeOfposting: "Yesterday",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1544168190-79c17527004f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2-51vyAHU4Urt5e5n5dD9PTEtHnQ-wTpVg&usqp=CAU",
     votes: 8,
     doubtDesc:
       "What is the difference between internal view and external view in database? Please give at least 5 to 7 differnces. If you can provide examples that will be great.",
@@ -806,7 +806,7 @@ export const allDoubtsArray = [
     subject: "Data Structure",
     timeOfposting: "11:25",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1608681299041-cc19878f79f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThjJflBWUNTLijUb_GMzU9o7aSyRbBLkip8A&usqp=CAU",
     votes: 21,
     doubtDesc:
       "Can anyone tell me how to how to implement a queue data structure using only stack. Implement a first in first out (FIFO) queue using only two stacks. The implemented queue should support all the functions of a normal queue (push, peek, pop, and empty). You must use only standard operations of a stack, which means only push to top, peek/pop from top, size, and is empty operations are valid. Depending on your language, the stack may not be supported natively. You may simulate a stack using a list or deque (double-ended queue) as long as you use only a stack's standard operations.",
@@ -817,7 +817,7 @@ export const allDoubtsArray = [
     subject: "Discrete Math",
     timeOfposting: "8:54 am",
     profilePicOfPoster:
-      "https://images.unsplash.com/photo-1589992896844-9b720813d1cb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1031&q=80",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1B8UMbGaktaFxNg9Vsqahayvtsi7Zac5r3I3sxr06wvDet3wBtJSTQsJrikbtBL7lI8s&usqp=CAU",
     votes: 15,
     doubtDesc:
       "Please anyone tell what exactly is bipartite graph with proper examples.",

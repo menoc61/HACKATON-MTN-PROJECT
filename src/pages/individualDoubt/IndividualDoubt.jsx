@@ -32,7 +32,7 @@ const IndividualDoubt = () => {
 
         <div className="writeAnswer">
           <img
-            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThjJflBWUNTLijUb_GMzU9o7aSyRbBLkip8A&usqp=CAU"
             alt="profile"
           />
 
@@ -56,7 +56,7 @@ const IndividualDoubt = () => {
           itemTitle="How to implement queue using only stack?"
           postedBy="Samiran Pal"
           timeOfposting="2:45 pm"
-          profilePicOfPoster="https://images.unsplash.com/photo-1544168190-79c17527004f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+          profilePicOfPoster="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2-51vyAHU4Urt5e5n5dD9PTEtHnQ-wTpVg&usqp=CAU"
           votes="12"
           doubtDesc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae quod consequuntur explicabo quos, voluptatem voluptatum, beatae eius deleniti tempora error deserunt distinctio. Dolore adipisci asperiores ipsum doloremque nam quia iste cum, repellendus minus deleniti unde libero fugiat sunt hic voluptates natus nihil iusto mollitia itaque soluta rem. Ipsa incidunt neque repellendus possimus dignissimos placeat quam molestias et! Autem error in neque qui inventore natus sunt, praesentium eaque ad maxime accusantium nesciunt commodi officia asperiores nisi ex veritatis placeat animi! Id, deserunt? Libero excepturi dolore nam! Quidem eum culpa consequuntur. Accusantium ratione rem doloremque explicabo, incidunt vero distinctio eos unde totam, sequi illum harum odio quasi, facere enim fugiat! Omnis autem doloribus reiciendis, itaque velit, et sit commodi nihil aliquam nisi impedit quae corporis nemo distinctio officia exercitationem delectus! Ex, beatae! Tempore voluptates dicta repudiandae laborum nostrum fugiat veniam quaerat possimus."
           noHover
