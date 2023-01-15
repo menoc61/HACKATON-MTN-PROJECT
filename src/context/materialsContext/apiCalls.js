@@ -55,7 +55,7 @@ export const createNewMaterial = async (material, user, dispatch) => {
   dispatch(createNewMaterialStart());
 
   try {
-    const res = await axios.post("/api/material", material, {
+    const res = await axios.post("https://nextgel-backend.herokuapp.com/api/material", material, {
       headers: {
         token: "Bearer " + user.accessToken,
       },
@@ -72,7 +72,7 @@ export const updateMaterial = async (material, user, dispatch) => {
   dispatch(updateMaterialStart());
 
   try {
-    const res = await axios.put(`/api/material/${material._id}`, material, {
+    const res = await axios.put(`https://nextgel-backend.herokuapp.com/api/material/${material._id}`, material, {
       headers: {
         token: "Bearer " + user.accessToken,
       },
@@ -92,7 +92,7 @@ export const deleteMaterial = async (materialId, user, dispatch) => {
   dispatch(deleteMaterialStart());
 
   try {
-    const res = await axios.delete(`/api/material/${materialId}`, {
+    const res = await axios.delete(`https://nextgel-backend.herokuapp.com/api/material/${materialId}`, {
       headers: {
         token: "Bearer " + user.accessToken,
       },
@@ -109,7 +109,7 @@ export const createCommentInMaterial = async (comment, user, dispatch) => {
   dispatch(updateMaterialStart());
 
   try {
-    const res = await axios.post("/api/material/comment", comment, {
+    const res = await axios.post("https://nextgel-backend.herokuapp.com/api/material/comment", comment, {
       headers: {
         token: "Bearer " + user.accessToken,
       },
@@ -130,7 +130,7 @@ export const updateCommentInMaterial = async (comment, user, dispatch) => {
 
   try {
     const res = await axios.put(
-      `/api/material/comment/${comment.commentId}`,
+      `https://nextgel-backend.herokuapp.com/api/material/comment/${comment.commentId}`,
       comment,
       {
         headers: {
@@ -154,7 +154,7 @@ export const deleteCommentInMaterial = async (comment, user, dispatch) => {
 
   try {
     const res = await axios.put(
-      `/api/material/deletecomment/${comment.commentId}`,
+      `https://nextgel-backend.herokuapp.com/api/material/deletecomment/${comment.commentId}`,
       comment,
       {
         headers: {

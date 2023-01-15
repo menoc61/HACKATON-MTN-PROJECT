@@ -24,7 +24,7 @@ const IndividualDoubt = () => {
         })
         .catch((err) => console.log(err));
     }
-  }, []);
+  }, [data, itemId, user]);
 
   const adjustTextarea = ({ target }) => {
     target.style.height = target.scrollHeight + "px";

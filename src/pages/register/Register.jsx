@@ -8,8 +8,6 @@ import SchoolRounded from "@material-ui/icons/SchoolRounded";
 import MenuBookRounded from "@material-ui/icons/MenuBookRounded";
 import { AuthContext } from "../../context/authContext/AuthContext";
 import { registerUser } from "../../context/authContext/apiCalls";
-import background from "../../assets/Wave.png";
-import sideimage from "../../assets/reg-side-img.svg";
 
 const Register = () => {
   const [fullname, setFullname] = useState("");

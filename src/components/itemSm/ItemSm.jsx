@@ -22,7 +22,7 @@ const ItemSm = ({ type, index, data, noLink }) => {
 
   useEffect(() => {
     if (type === "schedule") setStatus(classesArray[index].status);
-  }, []);
+  }, [index, type]);
 
   createdAt = formatDatetime(createdAt);
   day = "today";

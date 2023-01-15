@@ -19,7 +19,6 @@ const ItemMd = ({
     subject,
     poster,
     attachments,
-    submissions,
     createdAt,
     dueDatetime,
     teachers,
@@ -34,7 +33,7 @@ const ItemMd = ({
       setBgColor(allClassesArray[index]?.bgColor);
       setTextColor(allClassesArray[index]?.textColor);
     }
-  }, []);
+  }, [index, type]);
 
   createdAt = formatDatetime(createdAt);
   dueDatetime && formatDatetime(dueDatetime);

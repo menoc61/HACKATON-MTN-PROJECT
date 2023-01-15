@@ -16,7 +16,7 @@ const Sidebar = () => {
 
   useEffect(() => {
     subjects.length === 0 && getSubjects(user, dispatch);
-  }, [dispatch]);
+  }, [dispatch, subjects.length, user]);
 
   const onChange = (Date) => {
     setDate(Date);

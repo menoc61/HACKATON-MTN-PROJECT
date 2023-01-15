@@ -76,7 +76,7 @@ const Navbar = () => {
       <div className="nav-container">
         <div className="left">
           <Link to="/" className="link">
-            <h3 className="logo">WebDesk</h3>
+            <h3 className="logo">NextGEL</h3>
           </Link>
         </div>
 
@@ -132,7 +132,7 @@ const Navbar = () => {
               >
                 <CloseRoundedIcon style={{ fontSize: "26px" }} />
               </IconButton>
-              <h3 style={{ color: "var(--primary-color)" }}>WebDesk</h3>
+              <h3 style={{ color: "var(--primary-color)" }}>NextGEL</h3>
             </DialogTitle>
             <Divider variant="fullWidth" />
 

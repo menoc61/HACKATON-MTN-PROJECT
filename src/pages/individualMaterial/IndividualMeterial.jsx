@@ -25,7 +25,7 @@ function IndividualMeterial() {
         })
         .catch((err) => console.log(err));
     }
-  }, []);
+  }, [data, itemId, user]);
 
   return (
     <div className="individual-material">
