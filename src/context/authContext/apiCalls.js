@@ -16,7 +16,7 @@ export const loginUser = async (user, dispatch) => {
   dispatch(loginStart());
 
   try {
-    const res = await axios.post("/api/auth/login", user);
+    const res = await axios.post("https://nextgel-backend.herokuapp.com/api/auth/login", user);
     dispatch(loginSuccess(res.data));
   } catch (err) {
     dispatch(loginFailure(err));
@@ -27,7 +27,7 @@ export const registerUser = async (user, dispatch) => {
   dispatch(RegisterStart());
 
   try {
-    const res = await axios.post("/api/auth/register", user);
+    const res = await axios.post("https://nextgel-backend.herokuapp.com/api/auth/register", user);
     dispatch(RegisterSuccess(res.data));
   } catch (err) {
     dispatch(RegisterFailure(err));
@@ -38,7 +38,7 @@ export const updateUser = async (user, userInfo, dispatch) => {
   dispatch(UpdateUserStart());
 
   try {
-    const res = await axios.put(`/api/user/${user._id}`, userInfo, {
+    const res = await axios.put(`https://nextgel-backend.herokuapp.com/api/user/${user._id}`, userInfo, {
       headers: {
         token: "Bearer " + user.accessToken,
       },
