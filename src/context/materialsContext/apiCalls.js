@@ -21,7 +21,7 @@ export const getAllMaterials = async (user, dispatch) => {
   dispatch(getAllMaterialsStart());
 
   try {
-    const res = await axios.get("/api/material/all", {
+    const res = await axios.get("https://nextgel-backend.herokuapp.com/api/material/all", {
       headers: {
         token: "Bearer " + user.accessToken,
       },
@@ -38,7 +38,7 @@ export const getRecentMaterials = async (user, dispatch) => {
   dispatch(getRecentMaterialsStart());
 
   try {
-    const res = await axios.get("/api/material/recent", {
+    const res = await axios.get("https://nextgel-backend.herokuapp.com/api/material/recent", {
       headers: {
         token: "Bearer " + user.accessToken,
       },

@@ -1,0 +1,20 @@
+[
+    {
+      "itemTitle": "Answer all the questions",
+      "subject": "Discrete Mathematics",
+      "timeOfposting": "10:30 am",
+      "status": "submitted",
+      "profilePicOfPoster":
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2-51vyAHU4Urt5e5n5dD9PTEtHnQ-wTpVg&usqp=CAU",
+      "taskFile": "assignment ca1"
+    },
+    {
+      "itemTitle": "Join these two tables",
+      "subject": "Database",
+      "timeOfposting": "yesterday",
+      "status": "pending",
+      "profilePicOfPoster":
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk9t7VOESps3y6t6qIMAGPai0sbH9LUWt9dQ&usqp=CAU",
+      "taskFile": "assignment2"
+    }
+  ]
