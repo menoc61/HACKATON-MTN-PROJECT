@@ -25,19 +25,19 @@ const Home = () => {
 
   useEffect(() => {
     recentMaterials?.length < 2 && getRecentMaterials(user, materialsDispatch);
-  }, [recentMaterials?.length, materialsDispatch, user]);
+  }, [recentMaterials.length, materialsDispatch]);
 
   useEffect(() => {
     recentTasks?.length < 2 && getRecentTasks(user, tasksDispatch);
-  }, [recentTasks?.length, tasksDispatch, user]);
+  }, [recentTasks.length, tasksDispatch]);
 
   useEffect(() => {
     schedules?.length < 3 && getSchedules(user, schedulesDispatch);
-  }, [schedules?.length, schedulesDispatch, user]);
+  }, [schedulesDispatch]);
 
   useEffect(() => {
     recentDoubts?.length < 3 && getRecentDoubts(user, doubtsDispatch);
-  }, [recentDoubts?.length, doubtsDispatch, user]);
+  }, [recentDoubts.length, doubtsDispatch]);
 
   // console.log(recentMaterials, recentTasks, recentDoubts);
   return (
@@ -46,7 +46,7 @@ const Home = () => {
       <Sidebar />
 
       <div className="container">
-        <HeroSection large title="Welcome to NextGEL" />
+        <HeroSection large title="Welcome to WebDesk" />
 
         <div className="widgets-row">
           <HomeWidget

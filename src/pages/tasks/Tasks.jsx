@@ -19,7 +19,7 @@ const Tasks = ({ dept, sem }) => {
 
   useEffect(() => {
     allTasks?.length === 0 && getAllTasks(user, dispatch);
-  }, [allTasks?.length, dispatch, user]);
+  }, [dispatch]);
 
   // console.log(allTasks);
 

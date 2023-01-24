@@ -31,7 +31,7 @@ const CreateClass = () => {
 
   const handleJoinWithCode = () => {
     if (meetingCode) {
-      window.location.href = `http://localhost:3000/class/${meetingCode}`;
+      window.location.href = `https://nextgel-backend.herokuapp.com/class/${meetingCode}`;
     }
   };
 

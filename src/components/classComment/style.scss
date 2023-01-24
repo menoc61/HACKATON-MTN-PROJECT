@@ -44,12 +44,7 @@
     }
   }
 
-  @include tablet {
-    width: 145%;
-  }
-
   @include mobile {
-    width: 141%;
     padding: 15px;
 
     .textContent {
@@ -83,7 +78,7 @@
 
       input {
         width: 94%;
-        border-radius: 35px;
+        height: 90%;
         border: none;
         outline: none;
       }
@@ -92,6 +87,7 @@
         border: none;
         background: none;
         cursor: pointer;
+        height: 40px;
 
         .icon {
           color: var(--text-color2);
@@ -113,7 +109,11 @@
           font-size: 12px;
         }
         button {
-          margin-right: 8px;
+          margin-right: 0px;
+        }
+
+        .cancelBtn {
+          padding: 12px 0;
         }
       }
     }

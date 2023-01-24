@@ -67,7 +67,7 @@ const ItemForm = ({
       setFormdata({ ...formdata, subject: currentSubject });
       setFormErrors({ ...formErrors, subject: "" });
     }
-  }, [currentSubject, formErrors, formdata]);
+  }, [currentSubject]);
 
   const handleChange = ({ target: { name, value } }) => {
     setFormdata({ ...formdata, [name]: value });

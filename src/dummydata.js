@@ -65,7 +65,7 @@ export const doubtsArray = [
     itemTitle: "How to use super constructor",
     subject: "Java Programming",
     timeOfposting: "9:15 am",
-    nameOfPoster: "Soumen Sau",
+    nameOfPoster: "Gilles Momeni",
   },
   {
     itemTitle: "Difference between left join",
@@ -77,7 +77,7 @@ export const doubtsArray = [
     itemTitle: "What is the formula for number",
     subject: "Discrete Mathematics",
     timeOfposting: "yesterday",
-    nameOfPoster: "Rabbil Khan",
+    nameOfPoster: "Mesha vegas",
   },
 ];
 
@@ -571,7 +571,7 @@ export const taskArray = [
 export const allDoubtsArray = [
   {
     itemTitle: "How to implement queue using only stack?",
-    postedBy: "Soumen Sau",
+    postedBy: "Gilles Momeni",
     subject: "Data Structure",
     timeOfposting: "11:25",
     profilePicOfPoster:
@@ -582,7 +582,7 @@ export const allDoubtsArray = [
   },
   {
     itemTitle: "What is bipartite graph",
-    postedBy: "Rabbil Khan",
+    postedBy: "Mesha vegas",
     subject: "Discrete Math",
     timeOfposting: "8:54 am",
     profilePicOfPoster:
@@ -593,7 +593,7 @@ export const allDoubtsArray = [
   },
   {
     itemTitle: "Difference between internal and external view.",
-    postedBy: "Biswanath Bera",
+    postedBy: "TIOMELA JOU DANIEL",
     subject: "Database",
     timeOfposting: "Yesterday",
     profilePicOfPoster:
@@ -604,7 +604,7 @@ export const allDoubtsArray = [
   },
   {
     itemTitle: "How to implement queue using only stack?",
-    postedBy: "Soumen Sau",
+    postedBy: "Gilles Momeni",
     subject: "Data Structure",
     timeOfposting: "11:25",
     profilePicOfPoster:
@@ -615,7 +615,7 @@ export const allDoubtsArray = [
   },
   {
     itemTitle: "What is bipartite graph",
-    postedBy: "Rabbil Khan",
+    postedBy: "Mesha vegas",
     subject: "Discrete Math",
     timeOfposting: "8:54 am",
     profilePicOfPoster:
@@ -626,7 +626,7 @@ export const allDoubtsArray = [
   },
   {
     itemTitle: "Difference between internal and external view.",
-    postedBy: "Biswanath Bera",
+    postedBy: "TIOMELA JOU DANIEL",
     subject: "Database",
     timeOfposting: "Yesterday",
     profilePicOfPoster:
@@ -637,7 +637,7 @@ export const allDoubtsArray = [
   },
   {
     itemTitle: "How to implement queue using only stack?",
-    postedBy: "Soumen Sau",
+    postedBy: "Gilles Momeni",
     subject: "Data Structure",
     timeOfposting: "11:25",
     profilePicOfPoster:
@@ -648,7 +648,7 @@ export const allDoubtsArray = [
   },
   {
     itemTitle: "What is bipartite graph",
-    postedBy: "Rabbil Khan",
+    postedBy: "Mesha vegas",
     subject: "Discrete Math",
     timeOfposting: "8:54 am",
     profilePicOfPoster:
@@ -659,7 +659,7 @@ export const allDoubtsArray = [
   },
   {
     itemTitle: "Difference between internal and external view.",
-    postedBy: "Biswanath Bera",
+    postedBy: "TIOMELA JOU DANIEL",
     subject: "Database",
     timeOfposting: "Yesterday",
     profilePicOfPoster:
@@ -670,7 +670,7 @@ export const allDoubtsArray = [
   },
   {
     itemTitle: "How to implement queue using only stack?",
-    postedBy: "Soumen Sau",
+    postedBy: "Gilles Momeni",
     subject: "Data Structure",
     timeOfposting: "11:25",
     profilePicOfPoster:
@@ -681,7 +681,7 @@ export const allDoubtsArray = [
   },
   {
     itemTitle: "What is bipartite graph",
-    postedBy: "Rabbil Khan",
+    postedBy: "Mesha vegas",
     subject: "Discrete Math",
     timeOfposting: "8:54 am",
     profilePicOfPoster:
@@ -692,7 +692,7 @@ export const allDoubtsArray = [
   },
   {
     itemTitle: "Difference between internal and external view.",
-    postedBy: "Biswanath Bera",
+    postedBy: "TIOMELA JOU DANIEL",
     subject: "Database",
     timeOfposting: "Yesterday",
     profilePicOfPoster:
@@ -703,7 +703,7 @@ export const allDoubtsArray = [
   },
   {
     itemTitle: "How to implement queue using only stack?",
-    postedBy: "Soumen Sau",
+    postedBy: "Gilles Momeni",
     subject: "Data Structure",
     timeOfposting: "11:25",
     profilePicOfPoster:
@@ -714,7 +714,7 @@ export const allDoubtsArray = [
   },
   {
     itemTitle: "What is bipartite graph",
-    postedBy: "Rabbil Khan",
+    postedBy: "Mesha vegas",
     subject: "Discrete Math",
     timeOfposting: "8:54 am",
     profilePicOfPoster:
@@ -725,7 +725,7 @@ export const allDoubtsArray = [
   },
   {
     itemTitle: "Difference between internal and external view.",
-    postedBy: "Biswanath Bera",
+    postedBy: "TIOMELA JOU DANIEL",
     subject: "Database",
     timeOfposting: "Yesterday",
     profilePicOfPoster:
@@ -736,7 +736,7 @@ export const allDoubtsArray = [
   },
   {
     itemTitle: "How to implement queue using only stack?",
-    postedBy: "Soumen Sau",
+    postedBy: "Gilles Momeni",
     subject: "Data Structure",
     timeOfposting: "11:25",
     profilePicOfPoster:
@@ -747,7 +747,7 @@ export const allDoubtsArray = [
   },
   {
     itemTitle: "What is bipartite graph",
-    postedBy: "Rabbil Khan",
+    postedBy: "Mesha vegas",
     subject: "Discrete Math",
     timeOfposting: "8:54 am",
     profilePicOfPoster:
@@ -758,7 +758,7 @@ export const allDoubtsArray = [
   },
   {
     itemTitle: "Difference between internal and external view.",
-    postedBy: "Biswanath Bera",
+    postedBy: "TIOMELA JOU DANIEL",
     subject: "Database",
     timeOfposting: "Yesterday",
     profilePicOfPoster:
@@ -769,7 +769,7 @@ export const allDoubtsArray = [
   },
   {
     itemTitle: "How to implement queue using only stack?",
-    postedBy: "Soumen Sau",
+    postedBy: "Gilles Momeni",
     subject: "Data Structure",
     timeOfposting: "11:25",
     profilePicOfPoster:
@@ -780,7 +780,7 @@ export const allDoubtsArray = [
   },
   {
     itemTitle: "What is bipartite graph",
-    postedBy: "Rabbil Khan",
+    postedBy: "Mesha vegas",
     subject: "Discrete Math",
     timeOfposting: "8:54 am",
     profilePicOfPoster:
@@ -791,7 +791,7 @@ export const allDoubtsArray = [
   },
   {
     itemTitle: "Difference between internal and external view.",
-    postedBy: "Biswanath Bera",
+    postedBy: "TIOMELA JOU DANIEL",
     subject: "Database",
     timeOfposting: "Yesterday",
     profilePicOfPoster:
@@ -802,7 +802,7 @@ export const allDoubtsArray = [
   },
   {
     itemTitle: "How to implement queue using only stack?",
-    postedBy: "Soumen Sau",
+    postedBy: "Gilles Momeni",
     subject: "Data Structure",
     timeOfposting: "11:25",
     profilePicOfPoster:
@@ -813,7 +813,7 @@ export const allDoubtsArray = [
   },
   {
     itemTitle: "What is bipartite graph",
-    postedBy: "Rabbil Khan",
+    postedBy: "Mesha vegas",
     subject: "Discrete Math",
     timeOfposting: "8:54 am",
     profilePicOfPoster:
@@ -824,7 +824,7 @@ export const allDoubtsArray = [
   },
   {
     itemTitle: "Difference between internal and external view.",
-    postedBy: "Biswanath Bera",
+    postedBy: "TIOMELA JOU DANIEL",
     subject: "Database",
     timeOfposting: "Yesterday",
     profilePicOfPoster:

@@ -39,7 +39,7 @@ const Video = ({ peer, userVideo, videoRef }) => {
         ref.current.srcObject = stream;
       });
     }
-  }, [peer, userVideo]);
+  }, []);
 
   return userVideo ? (
     <video playsInline autoPlay ref={videoRef} />
@@ -102,7 +102,7 @@ const Onlinemeet = () => {
 
   useEffect(() => {
     const roomID = classId;
-    socketRef.current = io("https://nextgel-backend.herokuapp.com/");
+    socketRef.current = io(process.env.REACT_APP_SOCKET_SERVER_URL);
     navigator.mediaDevices
       .getUserMedia({ video: videoConstraints, audio: true })
       .then((stream) => {
@@ -169,7 +169,7 @@ const Onlinemeet = () => {
       });
 
     document.getElementById(activeRightPanelTab).classList.add("active");
-  }, [activeRightPanelTab, classId, user.fullname, user.profilePic]);
+  }, []);
 
   console.log(peers, peersRef);
 

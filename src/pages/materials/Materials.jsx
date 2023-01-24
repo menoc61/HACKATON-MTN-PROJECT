@@ -19,7 +19,7 @@ const Materials = ({ dept, sem }) => {
 
   useEffect(() => {
     allMaterials?.length === 0 && getAllMaterials(user, dispatch);
-  }, [allMaterials?.length, dispatch, user]);
+  }, [dispatch]);
 
   // console.log(allMaterials);
 
