@@ -132,7 +132,9 @@ const Navbar = () => {
               >
                 <CloseRoundedIcon style={{ fontSize: "26px" }} />
               </IconButton>
-              <h3 style={{ color: "var(--primary-color)" }}>NextGEL</h3>
+              <a href="https://app.lapentor.com/sphere/iai-1671214012?%20token=eyJOeXAIOLJKV1QiLCJhbGcOJIUZI1NiJ9.eyJzdW1iOiI2MzljYjNhZmY5YmMONZUZZTkwOGM4NTkiLCJpYXQiOjE2NzMxMzYwMTIsimV4cC16MTY3NDMONTYxMn0.36MLu3lZGXOsZQYJh%20hxoUlM7rCqlvQ398gSnezYike&scene=63bad2bdecba031d6f08bbd9">
+                <h3 style={{ color: "var(--primary-color)" }}>NextGEL.Visit Campus</h3>
+              </a>
             </DialogTitle>
             <Divider variant="fullWidth" />
 

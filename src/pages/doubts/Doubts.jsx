@@ -19,7 +19,7 @@ const Doubts = ({ dept, sem }) => {
 
   useEffect(() => {
     allDoubts?.length === 0 && getAllDoubts(user, dispatch);
-  }, [dispatch]);
+  }, [allDoubts?.length, dispatch, user]);
 
   // console.log(allDoubts);
 

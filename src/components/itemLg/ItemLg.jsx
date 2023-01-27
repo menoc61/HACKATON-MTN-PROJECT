@@ -114,8 +114,8 @@ const ItemLg = ({
   };
 
   return (
-    <Link
-      to={{
+    <a
+      href={{
         pathname: `/${type}/${itemId}`,
         itemData: data,
       }}
@@ -226,7 +226,7 @@ const ItemLg = ({
           </DialogActions>
         </Dialog>
       </div>
-    </Link>
+    </a>
   );
 };
 
