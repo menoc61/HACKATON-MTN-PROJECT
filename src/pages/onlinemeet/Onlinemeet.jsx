@@ -39,7 +39,7 @@ const Video = ({ peer, userVideo, videoRef }) => {
         ref.current.srcObject = stream;
       });
     }
-  }, []);
+  }, [peer, userVideo]);
 
   return userVideo ? (
     <video playsInline autoPlay ref={videoRef} />
@@ -169,7 +169,7 @@ const Onlinemeet = () => {
       });
 
     document.getElementById(activeRightPanelTab).classList.add("active");
-  }, []);
+  }, [activeRightPanelTab, classId, user.fullname, user.profilePic]);
 
   console.log(peers, peersRef);
 

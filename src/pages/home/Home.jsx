@@ -25,19 +25,19 @@ const Home = () => {
 
   useEffect(() => {
     recentMaterials?.length < 2 && getRecentMaterials(user, materialsDispatch);
-  }, [recentMaterials.length, materialsDispatch]);
+  }, [recentMaterials?.length, materialsDispatch, user]);
 
   useEffect(() => {
     recentTasks?.length < 2 && getRecentTasks(user, tasksDispatch);
-  }, [recentTasks.length, tasksDispatch]);
+  }, [recentTasks?.length, tasksDispatch, user]);
 
   useEffect(() => {
     schedules?.length < 3 && getSchedules(user, schedulesDispatch);
-  }, [schedulesDispatch]);
+  }, [schedules?.length, schedulesDispatch, user]);
 
   useEffect(() => {
     recentDoubts?.length < 3 && getRecentDoubts(user, doubtsDispatch);
-  }, [recentDoubts.length, doubtsDispatch]);
+  }, [recentDoubts?.length, doubtsDispatch, user]);
 
   // console.log(recentMaterials, recentTasks, recentDoubts);
   return (
