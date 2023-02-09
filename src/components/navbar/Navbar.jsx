@@ -198,7 +198,7 @@ const Navbar = () => {
                   />
                 </ListItem>
               </Link>
-
+{/* 
               <Link to="/createclass" className="link" style={linkStyle}>
                 <ListItem
                   button
@@ -212,8 +212,23 @@ const Navbar = () => {
                     primary="Create Meeting"
                   />
                 </ListItem>
-              </Link>
+              </Link> */}
 
+
+              <Divider variant="fullWidth" />
+              <a href="https://cda9cc3cdc46f783c783-menoc61-s-team.vercel.app/create">
+              <ListItem
+                  button
+                  style={listItemStyle}
+                >
+                  <VideoCallOutlinedIcon style={iconStyle} />
+                  <ListItemText
+                    disableTypography
+                    style={listItemTextStyle}
+                    primary="Create Meeting"
+                  />
+                </ListItem>
+                </a>
               <Divider variant="fullWidth" />
               <ListItem
                 button
