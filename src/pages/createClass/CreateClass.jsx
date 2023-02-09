@@ -31,10 +31,12 @@ const CreateClass = () => {
 
   const handleJoinWithCode = () => {
     if (meetingCode) {
-      window.location.href = `https://nextgel-backend.herokuapp.com/class/${meetingCode}`;
+      window.location.href = "https://cda9cc3cdc46f783c783-menoc61-s-team.vercel.app/create";
     }
   };
-
+  const onClick = () =>{
+    window.location.href = "https://cda9cc3cdc46f783c783-menoc61-s-team.vercel.app/create";
+  }
   const handleCreateMeeting = (e) => {
     const newClassId = uuid();
     console.log(newClassId);
@@ -54,8 +56,8 @@ const CreateClass = () => {
           </div>
 
           <div className="btn-container">
-            <button className="createBtn" onClick={handleCreateMeeting}>
-              <VideoCallOutlinedIcon className="icon" /> New meeting
+            <button className="createBtn" onClick={onClick}>
+              <VideoCallOutlinedIcon className="icon" /> <a href="https://cda9cc3cdc46f783c783-menoc61-s-team.vercel.app/create">New meeting</a> 
             </button>
 
             <div className="joinWithCode" id="joinWithCode" ref={joinWithCode}>
