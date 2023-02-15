@@ -34,7 +34,7 @@ this issue to a large extend by enabling a single window for teachers and facult
 <img src='https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/Addmaterial.png?alt=media&token=bfe26505-6a4d-4d1f-a51f-ae594a535d64' align='centre' width='80%'>
 <img src='https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/AppCallNativeScreen.png?alt=media&token=5b63cf82-f8c9-45a3-9dd8-2c2067a79411' align='centre' width='80%'>
 <img src='https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/DoubtList.png?alt=media&token=957af815-4d1c-4a87-83a0-27da96fb3ef4' align='centre' width='80%'>
-<img src='https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/HomeNativeScreen.png?alt=media&token=a058d1ac-b83d-485d-be71-007e9a051b08' align='centre' width='80%'>
+<img src='https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/HomeNativeScreen.png?alt=media&token=a058d1ac-b83d-485d-be71-007e9a051b08' align='centre' width='50%'>
 <img src='https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/LunchedClass.png?alt=media&token=5e7d87b9-42ec-41d6-a6e4-d260a2186922' align='centre' width='80%'>
 <img src='https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/Menu.png?alt=media&token=4885c0d2-f2ee-4c9d-bfcb-8a94f50fe8a6' align='centre' width='80%'>
 <img src='https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/ParticipantList.png?alt=media&token=387e104b-5a78-4c0d-be40-3a0bc2e4ca9b' align='centre' width='80%'>
