@@ -28,8 +28,21 @@ this issue to a large extend by enabling a single window for teachers and facult
 
 <a id="Screenshots"></a>
 <h3>📷 Screenshots</h3>
-
--Not Yet Available
+<img src='https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/HomeScreen.png?alt=media&token=44d891fd-bf54-4d4f-8596-ec4fd1b47a42' align='centre' width='80%'>
+<img src='https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/AddDoudbt.png?alt=media&token=2434e5e6-869d-41aa-b64a-04c6f186d55c' align='centre' width='80%'>
+<img src='https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/AddTask.png?alt=media&token=8d2a4237-5bb0-4992-a597-d4a1bac65fe7' align='centre' width='80%'>
+<img src='https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/Addmaterial.png?alt=media&token=bfe26505-6a4d-4d1f-a51f-ae594a535d64' align='centre' width='80%'>
+<img src='https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/AppCallNativeScreen.png?alt=media&token=5b63cf82-f8c9-45a3-9dd8-2c2067a79411' align='centre' width='80%'>
+<img src='https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/DoubtList.png?alt=media&token=957af815-4d1c-4a87-83a0-27da96fb3ef4' align='centre' width='80%'>
+<img src='https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/HomeNativeScreen.png?alt=media&token=a058d1ac-b83d-485d-be71-007e9a051b08' align='centre' width='80%'>
+<img src='https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/LunchedClass.png?alt=media&token=5e7d87b9-42ec-41d6-a6e4-d260a2186922' align='centre' width='80%'>
+<img src='https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/Menu.png?alt=media&token=4885c0d2-f2ee-4c9d-bfcb-8a94f50fe8a6' align='centre' width='80%'>
+<img src='https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/ParticipantList.png?alt=media&token=387e104b-5a78-4c0d-be40-3a0bc2e4ca9b' align='centre' width='80%'>
+<img src='https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/TaskList.png?alt=media&token=0f22395c-3e0d-4976-b779-bc9508ea2afe' align='centre' width='80%'>
+<img src='https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/createVirtualClass%20.png?alt=media&token=bda212ae-867e-4767-b644-dc6ec5f46815' align='centre' width='80%'>
+<img src='https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/shareScreen.png?alt=media&token=b6d3badb-7f70-4c27-93c2-2dd1ba34b294' align='centre' width='80%'>
+<img src='https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/materialList.png?alt=media&token=7c1f4d33-b7ff-48ae-b3f6-126f15dc3f80' align='centre' width='80%'>
+<img src='https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/update%20profile.png?alt=media&token=ba94bc3d-8c3d-439a-8c9f-0731adffa40a' align='centre' width='80%'>
 <a id="Key-Features"></a>
 
 ## 🗝️ Key Features
